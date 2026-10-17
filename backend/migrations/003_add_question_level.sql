@@ -1,0 +1,2 @@
+-- Level column already exists in initial schema (001_initial_schema.sql)
+-- This migration is a no-op as the column is present from creation

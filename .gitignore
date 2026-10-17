@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production builds
+dist/
+dist-ssr/
+build/
+*.local
+
+# Environment variables & secrets
+.env
+*.env
+!.env.example
+backend/.env
+
+# Uploads & temporary test files
+backend/uploads/quick-quiz-pdfs/*
+!backend/uploads/quick-quiz-pdfs/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

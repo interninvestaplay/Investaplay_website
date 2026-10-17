@@ -1,0 +1,2 @@
+ALTER TABLE rooms
+  ADD COLUMN room_name VARCHAR(160) NOT NULL DEFAULT 'Quiz Room';

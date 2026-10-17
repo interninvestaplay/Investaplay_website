@@ -1,0 +1,2 @@
+ALTER TABLE games ADD COLUMN ai_bot_name VARCHAR(100) NULL;
+ALTER TABLE games ADD COLUMN ai_level INT NULL;
